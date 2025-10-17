@@ -1,0 +1,17 @@
+<StyleCopSettings Version="4.3">
+  <Analyzers>
+    <Analyzer AnalyzerId="Microsoft.StyleCop.CSharp.DocumentationRules">
+      <AnalyzerSettings>
+        <BooleanProperty Name="IncludeFields">False</BooleanProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+  <GlobalSettings>
+    <CollectionProperty Name="RecognizedWords">
+      <Value>enum</Value>
+      <Value>plist</Value>
+      <Value>plists</Value>
+      <Value>plist's</Value>
+    </CollectionProperty>
+  </GlobalSettings>
+</StyleCopSettings>
