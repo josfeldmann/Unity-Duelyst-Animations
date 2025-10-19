@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1349
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 129
+  controlID: 125
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 69
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -167,11 +167,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 2549
-    height: 875
+    height: 876
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 46
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -191,12 +191,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 807
-    height: 875
+    height: 876
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -217,14 +217,14 @@ MonoBehaviour:
     x: 807
     y: 0
     width: 1742
-    height: 875
+    height: 876
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 15}
+  - {fileID: 14}
   - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 1
   m_LastSelected: 2
 --- !u!114 &10
@@ -243,16 +243,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 875
+    y: 876
     width: 2549
-    height: 418
+    height: 417
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
-  - {fileID: 12}
+  - {fileID: 19}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: DuelystAnimationImporterWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -274,14 +274,755 @@ MonoBehaviour:
     y: 0
     width: 891
     height: 1293
-  m_MinSize: {x: 276, y: 76}
+  m_MinSize: {x: 51, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 20}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8a108e078b4b8449621d88a09ed2da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DuelystAnimationImporterWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: DuelystAnimationImporterWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "DuelystAnimationImporterWindow\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2550
+    y: 24
+    width: 890
+    height: 1267
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  XMLDirectoryAssetPath: Duelyst-Sprites\Scripts\XMLS\
+  PNGDirectoryAssetPath: Duelyst-Sprites\Spritesheets\Units
+  exportPath: Duelyst-Sprites\Animations\Units
+  datas: []
+  spritePivot: {x: 0.5, y: 0.5}
+  clipFrameRate: 20
+  firstX: -1
+  skipExisting: 1
+  toDo:
+  - boss_andromeda
+  - boss_antiswarm
+  - boss_borealjuggernaut
+  - boss_candypanda
+  - boss_chaosknight
+  - boss_christmas
+  - boss_cindera
+  - boss_city
+  - boss_crystal
+  - boss_decepticle
+  - boss_decepticlechassis
+  - boss_decepticlehelm
+  - boss_decepticleprime
+  - boss_decepticlesword
+  - boss_decepticlewings
+  - boss_dissonance
+  - boss_emp
+  - boss_gol
+  - boss_grym
+  - boss_harmony
+  - boss_invader
+  - boss_kane
+  - boss_kron
+  - boss_legion
+  - boss_malyk
+  - boss_manaman
+  - boss_orias
+  - boss_oriasidol
+  - boss_paragon
+  - boss_protector
+  - boss_sandpanther
+  - boss_serpenti
+  - boss_shadowlord
+  - boss_shinkagezendo
+  - boss_skurge
+  - boss_skyfalltyrant
+  - boss_solfist
+  - boss_soulstealer
+  - boss_spelleater
+  - boss_taskmaster
+  - boss_treatdemon
+  - boss_treatdrake
+  - boss_treatoni
+  - boss_umbra
+  - boss_unhallowed
+  - boss_valiant
+  - boss_vampire
+  - boss_wolfpunch
+  - boss_wraith
+  - boss_wujin
+  - critter_1
+  - critter_2
+  - f1_3rdgeneral
+  - f1_altgeneral
+  - f1_altgeneraltier2
+  - f1_archdeacon
+  - f1_auroralioness
+  - f1_azuritelion
+  - f1_baastchampion
+  - f1_backlinearcher
+  - f1_bromemk2
+  - f1_buildcommon
+  - f1_buildminion
+  - f1_caliber-o
+  - f1_caster
+  - f1_elyxstormblade
+  - f1_elyxstormblademk2
+  - f1_excelsious
+  - f1_fiz
+  - f1_friendsguard
+  - f1_general
+  - f1_general_skinroguelegacy
+  - f1_grandmasterzir
+  - f1_groundbreaker
+  - f1_gryphinox
+  - f1_invincibuddy
+  - f1_ironcliffeguardian
+  - f1_ironcliffemonument
+  - f1_kaisergladiator
+  - f1_kingsguard
+  - f1_leovoyant
+  - f1_mech
+  - f1_melee
+  - f1_peacekeeper
+  - f1_peacekeeper2
+  - f1_radiantdragoon
+  - f1_ranged
+  - f1_rightfulheir
+  - f1_scintilla
+  - f1_shieldforger
+  - f1_silverguardsquire
+  - f1_silvermanevanguard
+  - f1_sinergyunit
+  - f1_sister
+  - f1_slo
+  - f1_solarius
+  - f1_solpontiff
+  - f1_special
+  - f1_spellbladeadept
+  - f1_sunbreaker
+  - f1_sunbreakguardian
+  - f1_sunforgelancer
+  - f1_sunriser
+  - f1_sunstonemaiden
+  - f1_sunstonetemplar
+  - f1_sunwisp
+  - f1_support
+  - f1_tank
+  - f1_tier2general
+  - f1_warblade
+  - f1_windbladecommander
+  - f1_xylestormblade
+  - f2_3rdgeneral
+  - f2_ace
+  - f2_altgeneral
+  - f2_altgeneraltier2
+  - f2_buildcommon
+  - f2_buildlegendary
+  - f2_buildminion
+  - f2_caligrapher
+  - f2_caster
+  - f2_chakriavatar
+  - f2_deathphantom
+  - f2_demononi
+  - f2_eclipseasura
+  - f2_eternitypainter
+  - f2_firewyrm
+  - f2_flareslinger
+  - f2_general
+  - f2_general_skindogehai
+  - f2_geomancer
+  - f2_godpalmblacktiger
+  - f2_grandmasterzendo
+  - f2_hammonbladeseeker
+  - f2_heartofthesonghai
+  - f2_katara
+  - f2_keshraifanblade
+  - f2_kibeholder
+  - f2_kindling
+  - f2_lanternfox
+  - f2_mage4winds
+  - f2_masteroftaikwai
+  - f2_mech
+  - f2_melee
+  - f2_ogremonk02
+  - f2_onnabugeisha
+  - f2_onyxjaguar
+  - f2_orizuru
+  - f2_pandabear
+  - f2_pandabear02
+  - f2_panddo
+  - f2_paperdropper
+  - f2_ranged
+  - f2_seenoevil
+  - f2_sekitori
+  - f2_sepukku
+  - f2_shidaimk2
+  - f2_sister
+  - f2_songhaisentinel
+  - f2_sparrowhawk
+  - f2_special
+  - f2_spellthief
+  - f2_stormkage
+  - f2_supekuta
+  - f2_support
+  - f2_synergyunit
+  - f2_tank
+  - f2_tier2general
+  - f2_twilightfox
+  - f2_xho
+  - f3_3rdgeneral
+  - f3_allomancer
+  - f3_altgeneral
+  - f3_altgeneraltier2
+  - f3_anubis
+  - f3_aymarahealer
+  - f3_badlandsscout
+  - f3_bobble
+  - f3_buildcommon
+  - f3_buildminion
+  - f3_ciphyronmk2
+  - f3_curseddervish
+  - f3_deathobelysk
+  - f3_dervish
+  - f3_desertspirit
+  - f3_dreamshaper
+  - f3_dunecaster
+  - f3_duskweaver
+  - f3_endlessobelysk
+  - f3_eurus
+  - f3_falcius
+  - f3_general
+  - f3_glassmirage
+  - f3_grandmasternoshrak
+  - f3_incinera
+  - f3_insightcaster
+  - f3_irondervish
+  - f3_ishtarhunter
+  - f3_keeperofages
+  - f3_lavastormobelysk
+  - f3_mech
+  - f3_miniscarab
+  - f3_nimbus
+  - f3_obelyskduskwind
+  - f3_obelyskgoldenflame
+  - f3_obelyskredsand
+  - f3_onyxpantheran
+  - f3_orbweaver
+  - f3_palacetrinketeer
+  - f3_pax
+  - f3_plague_totem
+  - f3_pyromancer
+  - f3_rae
+  - f3_rehorah
+  - f3_sakkak
+  - f3_sandhowler
+  - f3_scarabtera
+  - f3_sinergyunit
+  - f3_sirocco
+  - f3_sister
+  - f3_starfirescarab
+  - f3_tier2general
+  - f3_trifectaperfecta
+  - f3_windgiver
+  - f3_windshriek
+  - f3_windslicer
+  - f3_windstriker
+  - f3_zephyr
+  - f3_zirixfestive
+  - f3_zodiac
+  - f3_zodiac02
+  - f4_3rdgeneral
+  - f4_abomination
+  - f4_abyssiansentinel
+  - f4_altgeneral
+  - f4_altgeneraltier2
+  - f4_arachne
+  - f4_arcanedevourer
+  - f4_blacksolus
+  - f4_bloodbaronette
+  - f4_bloodmoon
+  - f4_buildcommon
+  - f4_buildlegendary
+  - f4_buildminion
+  - f4_crawler
+  - f4_creepmangler
+  - f4_creepydemon
+  - f4_daemondeep
+  - f4_daemongate
+  - f4_daemonvoid
+  - f4_darkspine
+  - f4_deathknell
+  - f4_demonofeternity
+  - f4_desolater
+  - f4_engulfingshadow
+  - f4_fallenaspect
+  - f4_furosa
+  - f4_general
+  - f4_gloomchaser
+  - f4_gor
+  - f4_grandmastervariax
+  - f4_horror
+  - f4_horrorburster
+  - f4_husk
+  - f4_juggernaut
+  - f4_klaxon
+  - f4_limbodweller
+  - f4_maehvmk2
+  - f4_mech
+  - f4_megafiend
+  - f4_miniminion
+  - f4_mistressofcommands
+  - f4_moonrider
+  - f4_nightfiend
+  - f4_nightsorrow
+  - f4_nocturn
+  - f4_ooz
+  - f4_phantasm
+  - f4_pitstrider
+  - f4_plaguedr
+  - f4_reaperninemoons
+  - f4_remora
+  - f4_shadowdancer
+  - f4_sinergyunit
+  - f4_siren
+  - f4_sister
+  - f4_skullcaster
+  - f4_tier2general
+  - f4_underworldbrute
+  - f5_3rdgeneral
+  - f5_altgeneral
+  - f5_altgeneraltier2
+  - f5_ankylos
+  - f5_armada
+  - f5_brundlbeast
+  - f5_buildcommon
+  - f5_buildminion
+  - f5_catalystquillbeast
+  - f5_dreadnaught
+  - f5_drogon
+  - f5_earthwalker
+  - f5_egg
+  - f5_firebreather
+  - f5_flumposaur
+  - f5_general
+  - f5_genesis
+  - f5_gibblegup
+  - f5_grandmasterkraigon
+  - f5_grimrock
+  - f5_gro
+  - f5_juggernaut
+  - f5_kolossus
+  - f5_kujata
+  - f5_lavalasher
+  - f5_magma
+  - f5_mandrake
+  - f5_mankatorwarbeast
+  - f5_mech
+  - f5_megabrontodon
+  - f5_minibeast
+  - f5_molokihuntress
+  - f5_mythronquest
+  - f5_omniseer
+  - f5_orphanoftheaspect
+  - f5_oxalaia
+  - f5_primordialgazer
+  - f5_pteryx
+  - f5_ragebinder
+  - f5_ragnoramk2
+  - f5_rancour
+  - f5_rex
+  - f5_silitharelder
+  - f5_silitharveteran
+  - f5_silitharyoung
+  - f5_sinergyunit
+  - f5_sister
+  - f5_spiritharvester
+  - f5_support
+  - f5_tank
+  - f5_thraex
+  - f5_tier2general
+  - f5_unstableflump
+  - f5_unstableleviathan
+  - f5_upgradizon
+  - f5_valknu
+  - f5_vindicator
+  - f5_visionar
+  - f5_wildinceptor
+  - f6_3rdgeneral
+  - f6_altgeneral
+  - f6_altgeneraltier2
+  - f6_arcticrhyno
+  - f6_auroraguardian
+  - f6_blazingspines
+  - f6_bloodsurge
+  - f6_bonechillbarrier
+  - f6_buildcommon
+  - f6_buildlegendary
+  - f6_buildminion
+  - f6_bur
+  - f6_circulus
+  - f6_crystalbeetle
+  - f6_doofybear
+  - f6_draugarlord
+  - f6_eldersaberspine
+  - f6_elklodon
+  - f6_evilcrystalwisp
+  - f6_explodingwall
+  - f6_faiefestive
+  - f6_fenrirwarmaster
+  - f6_fenrirwerewolf
+  - f6_freeblade
+  - f6_frostbitehawker
+  - f6_frostdrake
+  - f6_frostiva
+  - f6_general
+  - f6_ghostseraphim
+  - f6_grandmasterembla
+  - f6_gravitywell
+  - f6_greatwhitenorth
+  - f6_huldra
+  - f6_icedryad
+  - f6_icehornet
+  - f6_icy
+  - f6_ilenamk2
+  - f6_justice
+  - f6_kindredhunter
+  - f6_mech
+  - f6_minitreant
+  - f6_motherofdrakes
+  - f6_myriad
+  - f6_mythronquest
+  - f6_perfectreflection
+  - f6_ravager
+  - f6_seismicelemental
+  - f6_sentinel
+  - f6_shadowvespyr
+  - f6_sinergyunit
+  - f6_sister
+  - f6_sleetdasher
+  - f6_snowchaser
+  - f6_snowchasermk2
+  - f6_snowman
+  - f6_snowrippler
+  - f6_snowwyvern
+  - f6_spiritwolf
+  - f6_tier2general
+  - f6_treant
+  - f6_tundraguardian
+  - f6_vanarsentinel
+  - f6_voiceofthewind
+  - f6_waterbear
+  - f6_waterelemental
+  - f6_whitewyvern
+  - f6_wolfraven
+  - f6_ynuyttracker
+  - f6_ynuytunleashed
+  - f6_ynuytwarlock
+  - neutral_abjudicator
+  - neutral_aer
+  - neutral_aethermaster
+  - neutral_alterrexx
+  - neutral_amu
+  - neutral_arakiheadhunter
+  - neutral_arrowwhistler
+  - neutral_artificer
+  - neutral_artificereshaper
+  - neutral_ashmephyt
+  - neutral_astralcrusader
+  - neutral_astralprime
+  - neutral_azureherald
+  - neutral_bastion
+  - neutral_beastcavern
+  - neutral_beastdarkharbinger
+  - neutral_beastmaster
+  - neutral_beastmirkwooddevourer
+  - neutral_beastphasehound
+  - neutral_beastrepulsion
+  - neutral_beastsaberspinetiger
+  - neutral_beastswamp
+  - neutral_blacklocust
+  - neutral_blisteringscorn
+  - neutral_bloodletter
+  - neutral_bloodstonealchemist
+  - neutral_blueconjurer
+  - neutral_bonereaper
+  - neutral_boulderbreach
+  - neutral_boulderhurler
+  - neutral_buildcommon
+  - neutral_buildepic
+  - neutral_buildminion
+  - neutral_calculator
+  - neutral_capriciouswarrior
+  - neutral_captainhankheart
+  - neutral_celebrant
+  - neutral_chakkram
+  - neutral_chaoselemental
+  - neutral_chloroara
+  - neutral_contentiousbrute
+  - neutral_crimsonmystic
+  - neutral_critterc
+  - neutral_critterd
+  - neutral_cryptographer
+  - neutral_dagona
+  - neutral_dagonafish
+  - neutral_darknemesis
+  - neutral_daywatcher
+  - neutral_deathblighter
+  - neutral_deceptib0t
+  - neutral_dex
+  - neutral_diamondgolem
+  - neutral_dilotas
+  - neutral_dreamgazer
+  - neutral_dustwailer
+  - neutral_eclipse
+  - neutral_emp
+  - neutral_envybaer
+  - neutral_exun
+  - neutral_feralu
+  - neutral_firestarter
+  - neutral_fog
+  - neutral_gambler
+  - neutral_gauntletmaster
+  - neutral_geargrinder
+  - neutral_ghostlynx
+  - neutral_ghoulie
+  - neutral_giantcrab
+  - neutral_gnasher
+  - neutral_goldenhammer
+  - neutral_goldenjusticar
+  - neutral_goldenmantella
+  - neutral_golembloodshard
+  - neutral_golemdragonbone
+  - neutral_golemice
+  - neutral_golemnature
+  - neutral_golemrunesand
+  - neutral_golemsteel
+  - neutral_golemstone
+  - neutral_golemstormmetal
+  - neutral_golem_crossbones
+  - neutral_grablackhole
+  - neutral_grimes
+  - neutral_grincher
+  - neutral_gro
+  - neutral_hatred
+  - neutral_healingmystic
+  - neutral_healingmysticbandainamco
+  - neutral_healingmystictwitch
+  - neutral_highhand
+  - neutral_hollowgrovekeeper
+  - neutral_hsuku
+  - neutral_hydrax
+  - neutral_incindy
+  - neutral_inquisitorkron
+  - neutral_ion
+  - neutral_ironclad
+  - neutral_jaxi
+  - neutral_jaxtruesight
+  - neutral_keeperofthevale
+  - neutral_keeperofthevalue
+  - neutral_khymera
+  - neutral_kin
+  - neutral_koi
+  - neutral_komodokin
+  - neutral_ladylocke
+  - neutral_letigress
+  - neutral_letigresscub
+  - neutral_loreweaver
+  - neutral_luxignis
+  - neutral_mageswarm
+  - neutral_masteroftheseven
+  - neutral_maw
+  - neutral_mechaz0rcannon
+  - neutral_mechaz0rchassis
+  - neutral_mechaz0rhelm
+  - neutral_mechaz0rsuper
+  - neutral_mechaz0rsword
+  - neutral_mechaz0rwing
+  - neutral_meltdown
+  - neutral_mercarcanelimiter
+  - neutral_mercarchonspellbinder
+  - neutral_mercazurehorn
+  - neutral_merccaster1
+  - neutral_mercdaggerkiri
+  - neutral_mercflamebloodwarlock
+  - neutral_mercfrostbonenaga
+  - neutral_mercgambitgirl
+  - neutral_mercgrenadier
+  - neutral_mercmelee1
+  - neutral_mercmelee2
+  - neutral_mercmelee3
+  - neutral_mercmelee4
+  - neutral_mercmindwarper
+  - neutral_mercneedler
+  - neutral_mercowlbearmage
+  - neutral_mercpirate
+  - neutral_mercpiratebeast
+  - neutral_mercranged1
+  - neutral_mercshieldoracle
+  - neutral_mercsightlessfarseer
+  - neutral_mercsongweaver
+  - neutral_mercsunseer
+  - neutral_mercswornavanger
+  - neutral_mercsworndefender
+  - neutral_merctwilightmage
+  - neutral_merctwinbladewarmonger
+  - neutral_metaltooth
+  - neutral_minijax
+  - neutral_mirrormancer
+  - neutral_moebius
+  - neutral_mogwai
+  - neutral_moltengolem
+  - neutral_monsterartifacthunter
+  - neutral_monsterblacksandburrower
+  - neutral_monstercoiledcrawler
+  - neutral_monstercrystalwisp
+  - neutral_monsterdancingblades
+  - neutral_monsterdarkharbinger
+  - neutral_monsterdragonhawk
+  - neutral_monsterdreamoracle
+  - neutral_monsterexplodingdemon
+  - neutral_monsterflamewing
+  - neutral_monsterlightningbeetle
+  - neutral_monsteroculus
+  - neutral_monsteronyxscorpion
+  - neutral_monsterputridmindflayer
+  - neutral_monsterredsynja
+  - neutral_monstershreddingmantis
+  - neutral_monsterwhistlingblade
+  - neutral_monster_explodingdemon
+  - neutral_moonlitsorcerer
+  - neutral_mrgoldmclover
+  - neutral_mystery
+  - neutral_nightwatcher
+  - neutral_nip
+  - neutral_oni
+  - neutral_owlshadescholar
+  - neutral_paddo
+  - neutral_pandora
+  - neutral_pandoraminioncelerity
+  - neutral_pandoraminionfly
+  - neutral_pandoraminionfrenzy
+  - neutral_pandoraminionprovoke
+  - neutral_pandoraminionrush
+  - neutral_partyelf
+  - neutral_pennyarcade01
+  - neutral_pennyarcade02
+  - neutral_pennyarcade03
+  - neutral_pennyarcade04
+  - neutral_primusshieldmaster
+  - neutral_prismaticillusionist
+  - neutral_prismaticillusionistminion
+  - neutral_prongbok
+  - neutral_prophetwhitepalm
+  - neutral_purgatos
+  - neutral_quahog
+  - neutral_quartermastergauj
+  - neutral_rawr
+  - neutral_razorcraggolem
+  - neutral_rejuvenator
+  - neutral_replicator
+  - neutral_rok
+  - neutral_rook
+  - neutral_rubyrifter
+  - neutral_saberspinemk2
+  - neutral_sai
+  - neutral_sapphireseer
+  - neutral_sarlacmk2
+  - neutral_scarzig
+  - neutral_serpenti
+  - neutral_shadow1
+  - neutral_shadow2
+  - neutral_shadow3
+  - neutral_shadowcaster
+  - neutral_shadowranged
+  - neutral_shirodogdragon
+  - neutral_shuffler
+  - neutral_silhouettetracer
+  - neutral_silverbeak
+  - neutral_silvermech
+  - neutral_singletonmythron
+  - neutral_sinistersilhouette
+  - neutral_sister
+  - neutral_skywing
+  - neutral_soboro
+  - neutral_sol
+  - neutral_spelljammer
+  - neutral_spellsammermk2
+  - neutral_spellspark
+  - neutral_spiritscribe
+  - neutral_sunelemental
+  - neutral_sunsetparagon
+  - neutral_sunsteeldefender
+  - neutral_superdoxx
+  - neutral_superscarzig
+  - neutral_swordofakrane
+  - neutral_syvrel
+  - neutral_taura
+  - neutral_tethermancer
+  - neutral_thecollective
+  - neutral_thegreatprotector
+  - neutral_thescientist
+  - neutral_thunderhorn
+  - neutral_timekeeper
+  - neutral_tombstone
+  - neutral_tribalcaster
+  - neutral_tribalmelee1
+  - neutral_tribalmelee2
+  - neutral_tribalmelee3
+  - neutral_tribalmelee4
+  - neutral_tribalranged1
+  - neutral_tribalranged2
+  - neutral_trinitywing
+  - neutral_ubo
+  - neutral_unseven
+  - neutral_veteranflamewing
+  - neutral_vex
+  - neutral_voidhunter
+  - neutral_wartalon
+  - neutral_whitewidow
+  - neutral_wildtahr
+  - neutral_windrunner
+  - neutral_windstopper
+  - neutral_wingsofparadise
+  - neutral_xho
+  - neutral_xyle01
+  - neutral_xyle02
+  - neutral_xyle03
+  - neutral_yun
+  - neutral_z0r
+  - neutral_zenrui
+  - neutral_zukong
+  - neutral_zurael
+  - neutral_zyx
+  - neutral_zyxfestive
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -320,7 +1061,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 37532
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1025,9 +1766,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.12094742, y: 0.0122840945, z: -0.0013748549}
+    m_Target: {x: 2.101476, y: -0.36366028, z: -0.13069259}
     speed: 2
-    m_Value: {x: 0.12094742, y: 0.0122840945, z: -0.0013748549}
+    m_Value: {x: 2.101476, y: -0.36366028, z: -0.13069259}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1077,9 +1818,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 0.85162866
+    m_Target: 13.783397
     speed: 2
-    m_Value: 0.85162866
+    m_Value: 13.783397
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1100,7 +1841,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 13}
+    m_SceneView: {fileID: 14}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -1113,7 +1854,7 @@ MonoBehaviour:
     name: Contributors / Receivers
     section: Lighting
   m_ViewIsLockedToObject: 0
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1135,9 +1876,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 806
-    height: 849
+    height: 850
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1152,9 +1893,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d29c0100
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7ee9ffff90e9ffff9aebffff02fbffff
+      m_ExpandedIDs: 02fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1179,7 +1920,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1200,10 +1941,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 807
-    y: 79
+    x: 808
+    y: 24
     width: 1740
-    height: 849
+    height: 850
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1258,9 +1999,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1740
-      height: 828
+      height: 829
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 870, y: 414}
+    m_Translation: {x: 870, y: 414.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1268,19 +2009,19 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -870
-      y: -414
+      y: -414.5
       width: 1740
-      height: 828
+      height: 829
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1740, y: 849}
+  m_LastWindowPixelSize: {x: 1740, y: 850}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1333,7 +2074,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1355,9 +2096,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 954
+    y: 900
     width: 2548
-    height: 392
+    height: 391
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1380,7 +2121,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Duelyst-Sprites/Spritesheets/Units
+    - Assets/Duelyst-Sprites/Animations/Units
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1390,16 +2131,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Duelyst-Sprites/Spritesheets/Units
+  - Assets/Duelyst-Sprites/Animations/Units
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity-Duelyst
+  m_LastProjectPath: D:\Unity-Duelyst-Animations
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 223}
-    m_SelectedIDs: 38030100
-    m_LastClickedID: 66360
-    m_ExpandedIDs: 00000000ce020100d0020100d2020100d4020100d602010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 26df0000
+    m_LastClickedID: 57126
+    m_ExpandedIDs: 00000000e0010100e2010100e4010100e6010100e8010100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1428,7 +2169,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce020100d0020100d2020100d4020100d6020100
+    m_ExpandedIDs: 00000000e0010100e2010100e4010100e6010100e8010100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1456,7 +2197,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b6070100f8cd0000a2e40100ae4501009abb010094eb0100742e01009a2c0100ec2b01008ce901009ac7000034810c00ccd50100e016040016e80000aee10100b4d00100162601005c2b0100d47e010046c6010002c601003ab4000040ad00002cc20100f6c400005c010200e04c0100761a0100f69d000066ad000038ad0000069e000030f4000032f40000c0870100f2e8000002e90000307d0200407d0200347d0200387d02003c7d0200a4120100a84f0100142d0100127e0100f2f0000006f1000056e9000054cb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1482,11 +2223,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 960}
+    m_ScrollPosition: {x: 0, y: 589}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1508,9 +2249,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 954
+    y: 955
     width: 2548
-    height: 392
+    height: 391
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1522,7 +2263,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}

@@ -20,6 +20,17 @@ public class DuelystDemo : MonoBehaviour
     RuntimeAnimatorController current;
 
 
+    public List<Animator> anims;
+
+
+    public void SetRandomAnimators() {
+        foreach (Animator a in anims) {
+            a.runtimeAnimatorController = controllers[Random.Range(0, controllers.Count)];
+            a.Play("breathing");
+        }
+    }
+
+
     int index = 0;
 
     public void SetAnimator(int idx) {
@@ -67,6 +78,8 @@ public class DuelystDemo : MonoBehaviour
     }
 
     public void Awake() {
+        SetRandomAnimators();
+
         current = controllers[0];
         index = 0;
         buttonPrefab.gameObject.SetActive(false);

@@ -124,7 +124,7 @@ public class DuelystAnimationImporterWindow : EditorWindow
         foreach (FileInfo file in Files) {
 
             if (firstX >= 0 && limit >= firstX) break;
-            Debug.Log(file.FullName);
+            //Debug.Log(file.FullName);
 
             
             XmlDocument xmlDoc = new XmlDocument(); // Create an XML document object
@@ -261,7 +261,7 @@ public class DuelystAnimationImporterWindow : EditorWindow
 
             string path = AssetDatabase.GetAssetPath(o);
 
-            Debug.Log(assetFilePath);
+           // Debug.Log(assetFilePath);
 
             TextureImporter ti = AssetImporter.GetAtPath(path) as TextureImporter;
             ti.isReadable = true;
