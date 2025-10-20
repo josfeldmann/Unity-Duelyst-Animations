@@ -4,7 +4,7 @@
 
 [Duelyst](https://github.com/open-duelyst/duelyst) is an open source trading card game that has a lot of beautiful animated pixel art characters. I wanted to port those animations into Unity animation clips and animator controllers so Unity Devs could use them more easily. If you just want to download a the finished animations you can download a unitypackage file from [releases](https://github.com/josfeldmann/Unity-Duelyst-Animations/releases).
 
-#HOW TO REGENERATE THE ANIMATION FILES
+# HOW TO REGENERATE THE ANIMATION FILES
 In order to use these animations in your game you may want to change some of their properties or set them up differently from how I have them. You can easily regenerate the animation files by:
   1. Opening this project in Unity
   2. Delete all existing animations under Assets\Duelyst-Sprites\Spritesheets\Units
