@@ -17,4 +17,7 @@ In order to use these animations in your game you may want to change some of the
 
 If you want to change some of the logic I use in order to generate the files you will most likely need to examine the [DuelystAnimationImporterWindow.cs](https://github.com/josfeldmann/Unity-Duelyst-Animations/blob/main/Assets/Duelyst-Sprites/Scripts/Editor/DuelystAnimationImporterWindow.cs) file and make changes there. All of the import logic is in that script.
 
+# License
+Duelyst is licensed under the Creative Commons Zero v1.0 Universal license, so these assets are also licensed under that.
+
 
