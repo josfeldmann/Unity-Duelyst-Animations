@@ -4,7 +4,7 @@
 
 [Duelyst](https://github.com/open-duelyst/duelyst) is an open source trading card game that has a lot of beautiful animated pixel art characters. I wanted to port those animations into Unity animation clips and animator controllers so Unity Devs could use them more easily. If you just want to download a the finished animations you can download a unitypackage file from [releases](https://github.com/josfeldmann/Unity-Duelyst-Animations/releases).
 
-HOW TO BATCH EDIT THE ANIMATION FILES
+#HOW TO REGENERATE THE ANIMATION FILES
 In order to use these animations in your game you may want to change some of their properties or set them up differently from how I have them. You can easily regenerate the animation files by:
   1. Opening this project in Unity
   2. Delete all existing animations under Assets\Duelyst-Sprites\Spritesheets\Units
@@ -15,11 +15,6 @@ In order to use these animations in your game you may want to change some of the
   4. Press the "1. Create Sprites" Button to recut the sprite sheets (This will take some time)
   5. Press the "2. Create Animations" Button to regenerate the animations (This will take som time as well)
 
-
-
-
-animation files, changing their names, framerate, sprite pivots, or other aspects you can download this project open it in Unity and make changes to the [DuelystAnimationImporterWindow.cs](https://github.com/josfeldmann/Unity-Duelyst-Animations/blob/main/Assets/Duelyst-Sprites/Scripts/Editor/DuelystAnimationImporterWindow.cs) file which contains the logic for extracting the animations.
-
-Duelyst was made in a custom typescript engine, and the animation data is saved in .plist files which are basically just XML. I wrote a scriptt
+If you want to change some of the logic I use in order to generate the files you will most likely need to examine the [DuelystAnimationImporterWindow.cs](https://github.com/josfeldmann/Unity-Duelyst-Animations/blob/main/Assets/Duelyst-Sprites/Scripts/Editor/DuelystAnimationImporterWindow.cs) file and make changes there. All of the import logic is in that script.
 
 
